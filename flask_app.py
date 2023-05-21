@@ -8,7 +8,7 @@ app = Flask(__name__)
 def index():
     api_key = os.environ.get('GIPHY_API_KEY')
     # Busca um GIF aleatório na API do Giphy
-    response = requests.get(f'https://api.giphy.com/v1/gifs/random?api_key=Ib6itq6T3gUkAP6oqDcCKonwCXbdhAYZ&tag=&rating=g')
+    response = requests.get(f'https://api.giphy.com/v1/gifs/random?api_key=SUA_CHAVE_DE_API&tag=&rating=g')
     if response.status_code == 200:
         gif_url = response.json()['data']['images']['original']['url']
         return render_template('index.html', background_image=gif_url)
