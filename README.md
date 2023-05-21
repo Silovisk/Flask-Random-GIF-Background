@@ -11,7 +11,7 @@ Este repositório contém um script em Python que utiliza o Flask para buscar um
 ## Como usar
 
 1. Clone este repositório em sua máquina local.
-2. Instale as dependências executando o comando `pip install -r requirements.txt`.
+2. Instale as dependências executando o comando `pip install flask`.
 3. Obtenha uma chave de API do Giphy acessando [https://developers.giphy.com](https://developers.giphy.com) e crie uma nova aplicação.
 4. Abra o arquivo `app.py` e substitua `'SUA_CHAVE_DE_API'` pela sua chave de API real do Giphy.
 5. Execute o script `app.py`.
